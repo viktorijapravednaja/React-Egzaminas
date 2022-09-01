@@ -1,0 +1,40 @@
+form > input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-left: 25px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: rgb(99, 99, 99);
+  border: 1px solid rgb(183, 179, 179);
+  margin: 5px 0 10px 0;
+}
+.nameIcon {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png?fbclid=IwAR2K3XGcvQfZDLEdZuCmZtbn1Rdu63ypFmhWV4BUgXkeDkFVj13Rm3YBZH4")
+    no-repeat left;
+  background-size: 20px;
+}
+
+.emailIcon {
+  background: url("https://www.freepnglogos.com/uploads/email-logo-png-27.png?fbclid=IwAR2P00SQOSkx_im3dnqR15PGqaSy9oYk8oP_Ft4OaVO5RDYo90Rp0KZTtOE")
+    no-repeat left;
+  background-size: 20px;
+}
+
+.passwordIcon {
+  background: url("https://www.freeiconspng.com/thumbs/lock-icon/lock-icon-11.png?fbclid=IwAR2GqtEILedQMkAd6qAFccbBbGPFAcfIn_KdMg8W43gVZyxbYMiqIwZVRb0")
+    no-repeat left;
+  background-size: 20px;
+}
+.submitBtn {
+  background-color: #f2877d;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  form {
+    width: 100%;
+  }
+}

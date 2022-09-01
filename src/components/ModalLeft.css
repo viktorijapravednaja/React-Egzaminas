@@ -1,0 +1,29 @@
+.modalLeftwrapper {
+  background-color: #f2877d;
+  width: 30%;
+  height: 600px;
+  padding: 20px 30px;
+}
+
+.modalLeftwrapper > .imageWrapper {
+  text-align: center;
+  height: auto;
+  color: #fff;
+}
+
+.imageWrapper img {
+  width: 400px;
+  object-fit: cover;
+  object-position: fixed;
+  object-position: center;
+}
+.imageWrapper p {
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .modalLeftwrapper {
+    display: none;
+  }
+}

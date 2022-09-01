@@ -1,0 +1,40 @@
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.modalRightWrapper {
+  width: 30%;
+  height: 600px;
+  border: 1px solid #f2877d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0 25px;
+}
+a {
+  text-decoration: none;
+  color: #f2877d;
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 10px auto;
+}
+
+.btnWrapper {
+  margin: 25px 0 10px 0;
+}
+@media screen and (max-width: 1024px) {
+  .modalRightWrapper {
+    width: 80%;
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .modalRightWrapper {
+    padding: 0 10px;
+  }
+}
